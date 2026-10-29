@@ -19,6 +19,13 @@ npm run build    # build de producción en dist/
 npm run preview  # previsualizar el build
 ```
 
+## Publicación en GitHub Pages
+
+El workflow `.github/workflows/deploy.yml` compila y publica la web en cada push.
+Requisito (una sola vez): **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+URL: https://danisp04.github.io/WebEmpresa/
+
 ## Cómo completar el contenido
 
 **Todo el texto está en [`src/config/site.ts`](src/config/site.ts)**: nombre, servicios, método, cifras, valores y datos de contacto. Busca `TODO` para ver lo que es provisional.
